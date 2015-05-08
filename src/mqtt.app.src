@@ -1,0 +1,15 @@
+%% Feel free to use, reuse and abuse the code in this file.
+
+{application, mqtt, [
+	{description, "TCP MQTT Broker"},
+	{vsn, "1"},
+	{modules, []},
+	{registered, [mqtt_sup]},
+	{applications, [
+		kernel,
+		stdlib,
+		ranch
+	]},
+	{mod, {mqtt_app, []}},
+	{env, []}
+]}.

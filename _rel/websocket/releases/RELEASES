@@ -1,0 +1,10 @@
+[{release,"websocket","0.0.2","6.3",
+          [{kernel,"3.1","./lib/kernel-3.1"},
+           {stdlib,"2.3","./lib/stdlib-2.3"},
+           {ranch,"1.1.0","./lib/ranch-1.1.0"},
+           {crypto,"3.4.2","./lib/crypto-3.4.2"},
+           {cowlib,"1.2.0","./lib/cowlib-1.2.0"},
+           {cowboy,"2.0.0-pre.1","./lib/cowboy-2.0.0-pre.1"},
+           {websocket,"1","./lib/websocket-1"},
+           {erlzmq,"3.0","./lib/erlzmq-3.0"}],
+          permanent}].
